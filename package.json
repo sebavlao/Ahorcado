@@ -1,0 +1,26 @@
+{
+  "name": "ahorcado",
+  "version": "1.0.0",
+  "description": "juego del ahorcado hecho con html, css y javascript",
+  "main": "ahorcado.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebavlao/Ahorcado.git"
+  },
+  "keywords": [
+    "ahorcado",
+    "javascript",
+    "html",
+    "juego",
+    "css"
+  ],
+  "author": "Sebastián Videla <sebav364@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sebavlao/Ahorcado/issues"
+  },
+  "homepage": "https://github.com/sebavlao/Ahorcado#readme"
+}
