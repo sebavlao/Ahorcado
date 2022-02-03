@@ -17,7 +17,7 @@
     "juego",
     "css"
   ],
-  "author": "Sebastián Videla <sebav364@gmail.com>",
+  "authors": ["Sebastián Videla <sebav364@gmail.com>", "Ariel Bello <ang.ari.bello97@gmail.com>"], 
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/sebavlao/Ahorcado/issues"
