@@ -1,9 +1,6 @@
-const words = ["angulo", "papa", "mandioca", "regadera", "refrigerador", "tacho", "chatarra", "plato", "teclado", "gabinete"];
-
-const wordsAleatorio = words[Math.floor(Math.random()*words.length)];
-
-
 const agregarPalabra = document.querySelector("#nueva-palabra")
+
+
 
 agregarPalabra.addEventListener("click", () => {
  const word = document.getElementById("input-nueva-palabra");
@@ -17,4 +14,3 @@ agregarPalabra.addEventListener("click", () => {
 
  word.value = ""
 });
-   

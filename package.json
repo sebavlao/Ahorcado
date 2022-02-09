@@ -17,10 +17,16 @@
     "juego",
     "css"
   ],
-  "authors": ["Sebastián Videla <sebav364@gmail.com>", "Ariel Bello <ang.ari.bello97@gmail.com>"], 
+  "authors": [
+    "Sebastián Videla <sebav364@gmail.com>",
+    "Ariel Bello <ang.ari.bello97@gmail.com>"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/sebavlao/Ahorcado/issues"
   },
-  "homepage": "https://github.com/sebavlao/Ahorcado#readme"
+  "homepage": "https://github.com/sebavlao/Ahorcado#readme",
+  "dependencies": {
+    "sweetalert2": "^11.4.0"
+  }
 }

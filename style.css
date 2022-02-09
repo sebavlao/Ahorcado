@@ -1,10 +1,25 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+}
+
 .titulo {
     padding: 15px;
     width: 30vw;
     margin: auto;
   
   }
-  
+
   .btn {
     border: 0;
     color: white;
@@ -37,3 +52,29 @@
  #ahorcado {
    background-color: #E1FEFF;
  }
+
+
+#guiones img {
+  height: 100px;
+}
+
+#imagenes {
+  flex-direction: center;
+  height: 427px;
+  width: 330px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 170px;
+  left: 250px;
+}
+
+#vidas {
+  font-family: monospace;
+  font-size: 3rem;
+  position: relative;
+  top: 7rem;
+  left: 50rem;
+  text-align: left;
+}

@@ -5,15 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <title>Document</title>
+    <title>Juego</title>
 </head>
 <body>
     <main>
         <div style="text-align:center;">
-            <h1>Hola Mundo</h1>
-            <canvas id="ahorcado" height="800px" width="1200px"></canvas>
+            <div id="vidas">Vidas: </div>
+            <h2 id="guiones"></h2>
         </div>
+        <div id="imagenes"></div>
     </main>
-    <script type="text/javascript" src="./canvas.js"></script>
+    <script src="./js/ahorcado.js"></script>
+    <script src="./js/juego.js" type="module"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./js/sweet-alert2.js"></script>
 </body>
 </html>
